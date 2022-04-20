@@ -9,6 +9,7 @@ class baseproject{
 		string mk1[100];
 		int n;
 		int sks[100];
+		int biaya,disc,totalsemua,totalsementara,totalsks, disc2;
 };
 
 void baseproject::mk(int n){
@@ -22,8 +23,7 @@ void baseproject::mk(int n){
 	}
 }
 
-void baseproject::output(int n){
-	int biaya,disc,totalsemua,totalsementara,totalsks, disc2;	
+void baseproject::output(int n){	
 	cout<<"\nNo.\tDaftar Matkul\tsks"<<endl;
 	for(int i=0; i<n; i++){
 		cout<<i+1<<"\t"<<mk1[i+1]<<"\t\t"<<sks[i+1]<<endl;
