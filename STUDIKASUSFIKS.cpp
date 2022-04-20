@@ -1,3 +1,7 @@
+//Lifa 2100018404
+//Dwi Cahyo Nugroho 2100018405
+//Qonita Auliya 2100018407
+
 #include<iostream>
 using namespace std;
 
